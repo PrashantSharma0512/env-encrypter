@@ -1,0 +1,65 @@
+{
+  "name": "env-encrypter",
+  "version": "1.0.1",
+  "description": "Secure AES-256 encryption for .env files with runtime decryption - Protect sensitive environment variables in Node.js applications",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "env-encrypter": "./dist/cli.js"
+  },
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/node": "^20.19.4"
+  },
+  "keywords": [
+    "env",
+    "dotenv",
+    "encryption",
+    "security",
+    "aes-256",
+    "environment-variables",
+    "secret-management",
+    "nodejs",
+    "configuration",
+    "devops",
+    "ci-cd",
+    "sensitive-data",
+    "credential-protection",
+    "runtime-decryption",
+    "secure-config",
+    "env-encryption",
+    "secret-rotation",
+    "security-tools"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrashantSharma0512/env-encrypter.git"
+  },
+  "homepage": "https://github.com/PrashantSharma0512/env-encrypter#readme",
+  "bugs": {
+    "url": "https://github.com/PrashantSharma0512/env-encrypter/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Prashant Sharma",
+    "email": "prashantsharma0512@gmail.com",
+    "url": "www.linkedin.com/in/prashant-sharma-0216ba251",
+    "github": "https://github.com/PrashantSharma0512"
+  }
+}
