@@ -1,7 +1,7 @@
 {
   "name": "env-encrypter",
-  "version": "1.0.1",
-  "description": "Secure AES-256 encryption for .env files with runtime decryption - Protect sensitive environment variables in Node.js applications",
+  "version": "1.0.2",
+  "description": "Encrypt and decrypt .env files in Node.js using AES-256. Secure environment variables at runtime for CI/CD, Express apps, and secure deployments.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -25,24 +25,28 @@
     "@types/node": "^20.19.4"
   },
   "keywords": [
-    "env",
     "dotenv",
-    "encryption",
-    "security",
-    "aes-256",
-    "environment-variables",
-    "secret-management",
+    "env",
+    "encrypt",
+    "decrypt",
+    "aes",
+    "aes256",
     "nodejs",
-    "configuration",
+    "environment variables",
+    "secure env",
+    "dotenv encryption",
+    "env encryption",
+    "env decrypt",
+    "dotenv secure",
+    "dotenv cli",
+    "secure config",
+    "secret manager",
+    "secret management",
     "devops",
-    "ci-cd",
-    "sensitive-data",
-    "credential-protection",
-    "runtime-decryption",
-    "secure-config",
-    "env-encryption",
-    "secret-rotation",
-    "security-tools"
+    "ci cd",
+    "env security",
+    "dotenv tools",
+    "node env encryption"
   ],
   "engines": {
     "node": ">=18.0.0"

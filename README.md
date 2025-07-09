@@ -1,7 +1,15 @@
+# 🔐 env-encrypter
 
-# 🔐 env-encrypter 
+[![npm version](https://img.shields.io/npm/v/env-encrypter.svg)](https://www.npmjs.com/package/env-encrypter)
+[![npm downloads](https://img.shields.io/npm/dt/env-encrypter.svg)](https://www.npmjs.com/package/env-encrypter)
+[![GitHub stars](https://img.shields.io/github/stars/PrashantSharma0512/env-encrypter?style=social)](https://github.com/PrashantSharma0512/env-encrypter/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Node Version](https://img.shields.io/node/v/env-encrypter.svg)](https://nodejs.org)
 
-**Secure environment variable management for Node.js applications**
+**Secure .env File Encryption & Runtime Decryption for Node.js Projects**
+
+Safely encrypt sensitive environment variables using AES-256. Easily integrate with Express, CI/CD pipelines, or production environments — without exposing your secrets in plaintext. Built for developers who want strong config security with CLI flexibility.
+
 
 Encrypt your `.env` files into `.env.enc` using military-grade AES-256 encryption, while maintaining seamless access to decrypted values at runtime.
 

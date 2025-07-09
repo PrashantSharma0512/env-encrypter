@@ -1,0 +1,41 @@
+# Ignore everything not needed in the published package
+
+# Ignore TypeScript source files
+src/
+tests/
+test/
+__tests__/
+
+# Ignore config and tooling
+tsconfig.json
+tsconfig.build.json
+.eslintrc.js
+.eslintignore
+.prettierrc
+.prettierignore
+.vscode/
+.env
+.env.*
+*.log
+*.DS_Store
+coverage/
+
+# Optional: ignore markdown/docs
+README.md
+docs/
+*.md
+
+# Ignore node_modules just in case
+node_modules/
+
+# Ignore shell or utility scripts
+scripts/
+*.sh
+
+# ❗️Ignore .js files from dist (but keep others like .d.ts if needed)
+dist/**/*.js
+
+# ⚠️ BUT still allow you to include dist folder
+!dist/
+!dist/**/*.d.ts
+!dist/**/*.json
